@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_qr.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Div_QR">
+        <img src="Resources/bg-illustration.svg" class="BG_img"  alt="">
+        <img src="Resources/logo-qr-generator.svg" id="logo_image" alt="">
+        <div class="Circle_div">
+            <img src="" alt="" id="QRImage">
+        </div>
+
+        <div id="Buttons_div">
+            <button id="Dowload_button" class="Buttons">Download</button>
+            <button id="Copy_button" class="Buttons">Copy</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.4.4/qrcode.js" integrity="sha512-oxrVyBhqnzQ0BzuM0A/6dEIk0alz0p4SpDRaWvtuUoarIc8rnL5lVniHG5Dp21MRFojcQcmKHjaskNXhSaUPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="createQR.js"></script>
+</body>
+</html>

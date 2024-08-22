@@ -1,0 +1,71 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-family:"Outfit", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.Div_QR {
+    height: 100%;
+    width: 100%;
+    background-color: #111729;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo_image{
+    left: 5vh;
+    top: 5vh;
+    position: absolute;   
+}
+
+.BG_img{
+    position: absolute;
+    width: 70vh;
+    height: auto;
+    right: 18vh;
+}
+
+.Circle_div{
+    display: flex;
+    background-color: #4e80ee33;
+    height: 32vh;
+    width: 32vh;
+    border-radius: 100%;
+    align-items:center;
+    justify-content: center;
+}
+
+#QRImage{
+    height: 25vh;
+    width: auto;
+    border-radius: 20px;
+
+}
+
+.Buttons {
+    width: 20vh;
+    height: 5vh;
+    color: white;
+    background-color: #3662E3;
+    margin-top: 10vw;
+    border-radius: 20px;
+    margin-right: 2vh;
+}
+
+@media screen and (max-width: 480px ) {    
+   
+    *{
+        font-size: 12px;
+    }
+
+}
