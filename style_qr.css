@@ -33,6 +33,7 @@ body {
     width: 70vh;
     height: auto;
     right: 18vh;
+    pointer-events: none;
 }
 
 .Circle_div{
